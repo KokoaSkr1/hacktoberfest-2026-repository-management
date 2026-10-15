@@ -1,0 +1,1153 @@
+Start Exercise / Create exercise issue	UNKNOWN STEP	﻿2026-10-14T16:55:17.0068796Z Current runner version: '2.337.0'
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.0089097Z ##[group]Runner Image Provisioner
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.0089875Z Hosted Compute Agent
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.0090352Z Version: 20261002.596
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.0090893Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.0091520Z Build Date: 2026-10-02T22:28:27Z
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.0092231Z Worker ID: {13be8aaf-560f-405a-a5fc-6b285af386d3}
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.0092867Z Region: westus3
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.0093320Z Cloud: Azure
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.0093781Z ##[endgroup]
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.0094972Z ##[group]Operating System
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.0095510Z Ubuntu
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.0095998Z 24.04.5
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.0096422Z LTS
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.0096829Z ##[endgroup]
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.0097370Z ##[group]Runner Image
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.0097890Z Image: ubuntu-24.04
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.0098678Z Version: 20261004.327.1
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.0099689Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261004.327/images/ubuntu/Ubuntu2404-Readme.md
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.0100918Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261004.327
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.0101732Z ##[endgroup]
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.0103026Z ##[group]GITHUB_TOKEN Permissions
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.0104907Z Actions: write
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.0105453Z Contents: write
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.0105944Z Issues: write
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.0106377Z Metadata: read
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.0106908Z ##[endgroup]
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.0108534Z Secret source: Actions
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.0109404Z Cache mode: write
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.0110135Z Prepare workflow directory
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.0413155Z Prepare all required actions
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.0452850Z Getting action download info
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.3550700Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:17.4595780Z Download action repository 'skills/action-text-variables@v2' (SHA:3b6c75e091007b8a7660c17071aa2503cccf6af2)
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:18.0594494Z Download action repository 'actions/github-script@v7' (SHA:f28e40c7f34bde8b3046d885e986cb6290c5673b)
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:18.8979825Z Uses: skills/exercise-toolkit/.github/workflows/start-exercise.yml@refs/tags/v0.6.0 (ebf43bb96882683e03e667184c6445ed4c8074e6)
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:18.8985116Z ##[group] Inputs
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:18.8986048Z   exercise-title: Introduction to Repository Management
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:18.8987116Z   issue-title-prefix: Exercise: 
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:18.8989497Z   intro-message: In this exercise, you'll configure your repository for easier collaboration. You'll learn how to protect your code, prepare for collaboration, and foster healthy growth in your projects.
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:18.8991893Z ##[endgroup]
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:18.8992865Z Complete job name: Start Exercise / Create exercise issue
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:18.9680687Z ##[group]Run actions/checkout@v4
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:18.9681791Z with:
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:18.9682603Z   repository: skills/exercise-toolkit
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:18.9683465Z   path: exercise-toolkit
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:18.9684281Z   ref: 85962a50afd57183f6703c3d07260bf3a123b3e9
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:18.9690620Z   token: ***
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:18.9691271Z   ssh-strict: true
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:18.9691955Z   ssh-user: git
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:18.9692779Z   persist-credentials: true
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:18.9693519Z   clean: true
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:18.9694202Z   sparse-checkout-cone-mode: true
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:18.9694999Z   fetch-depth: 1
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:18.9695660Z   fetch-tags: false
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:18.9696334Z   show-progress: true
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:18.9697008Z   lfs: false
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:18.9697626Z   submodules: false
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:18.9698305Z   set-safe-directory: true
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:18.9699085Z   allow-unsafe-pr-checkout: false
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:18.9700105Z env:
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:18.9700942Z   EXERCISE_TOOLKIT_REF: 85962a50afd57183f6703c3d07260bf3a123b3e9
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:18.9702110Z ##[endgroup]
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.0519239Z Syncing repository: skills/exercise-toolkit
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.0521705Z ##[group]Getting Git version info
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.0524213Z Working directory is '/home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management/exercise-toolkit'
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.0526599Z [command]/usr/bin/git version
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.0621259Z git version 2.55.0
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.0639585Z ##[endgroup]
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.0660263Z Temporarily overriding HOME='/home/runner/work/_temp/e117ff85-280a-4f8d-888f-504af89cbc3e' before making global git config changes
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.0664083Z Adding repository directory to the temporary git global config as a safe directory
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.0667650Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management/exercise-toolkit
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.0730128Z ##[group]Initializing the repository
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.0735029Z [command]/usr/bin/git init /home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management/exercise-toolkit
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.1354487Z hint: Using 'master' as the name for the initial branch. This default branch name
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.1356896Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.1362204Z hint: to use in all of your new repositories, which will suppress this warning,
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.1363649Z hint: call:
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.1364779Z hint:
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.1366020Z hint: 	git config --global init.defaultBranch <name>
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.1367548Z hint:
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.1368871Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.1370948Z hint: 'development'. The just-created branch can be renamed via this command:
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.1372849Z hint:
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.1373816Z hint: 	git branch -m <name>
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.1374853Z hint:
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.1376227Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.1378682Z Initialized empty Git repository in /home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management/exercise-toolkit/.git/
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.1382611Z [command]/usr/bin/git remote add origin https://github.com/skills/exercise-toolkit
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.1419471Z ##[endgroup]
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.1421179Z ##[group]Disabling automatic garbage collection
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.1422934Z [command]/usr/bin/git config --local gc.auto 0
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.1452547Z ##[endgroup]
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.1454185Z ##[group]Setting up auth
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.1458152Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.1488371Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.1843141Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.1874012Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.2065652Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.2095549Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.2288358Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.2324266Z ##[endgroup]
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.2325427Z ##[group]Fetching the repository
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.2331795Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin 85962a50afd57183f6703c3d07260bf3a123b3e9
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.8690378Z From https://github.com/skills/exercise-toolkit
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.8691774Z  * branch            85962a50afd57183f6703c3d07260bf3a123b3e9 -> FETCH_HEAD
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.8694255Z ##[endgroup]
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.8694795Z ##[group]Determining the checkout info
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.8697073Z ##[endgroup]
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.8702692Z [command]/usr/bin/git sparse-checkout disable
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.8752347Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.8781087Z ##[group]Checking out the ref
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.8785190Z [command]/usr/bin/git checkout --progress --force 85962a50afd57183f6703c3d07260bf3a123b3e9
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.8841774Z Note: switching to '85962a50afd57183f6703c3d07260bf3a123b3e9'.
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.8842253Z 
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.8842551Z You are in 'detached HEAD' state. You can look around, make experimental
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.8843115Z changes and commit them, and you can discard any commits you make in this
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.8843604Z state without impacting any branches by switching back to a branch.
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.8843845Z 
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.8844006Z If you want to create a new branch to retain commits you create, you may
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.8844360Z do so (now or later) by using -c with the switch command. Example:
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.8844554Z 
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.8844655Z   git switch -c <new-branch-name>
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.8844797Z 
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.8844885Z Or undo this operation with:
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.8845031Z 
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.8845107Z   git switch -
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.8845223Z 
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.8845425Z Turn off this advice by setting config variable advice.detachedHead to false
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.8845666Z 
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.8845813Z HEAD is now at 85962a5 style: enhance welcome message styling (#67)
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.8850955Z ##[endgroup]
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.8885978Z [command]/usr/bin/git log -1 --format=%H
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.8908367Z 85962a50afd57183f6703c3d07260bf3a123b3e9
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.9097393Z ##[group]Run skills/action-text-variables@v2
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.9097695Z with:
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.9097978Z   template-file: exercise-toolkit/markdown-templates/step-feedback/welcome.md
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.9098926Z   template-vars: title: Introduction to Repository Management
+Start Exercise / Create exercise issue	UNKNOWN STEP	login: KokoaSkr1
+Start Exercise / Create exercise issue	UNKNOWN STEP	intro_message: In this exercise, you'll configure your repository for easier collaboration. You'll learn how to protect your code, prepare for collaboration, and foster healthy growth in your projects.
+Start Exercise / Create exercise issue	UNKNOWN STEP	
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.9099745Z env:
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.9099968Z   EXERCISE_TOOLKIT_REF: 85962a50afd57183f6703c3d07260bf3a123b3e9
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.9100236Z ##[endgroup]
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.9922859Z ##[group]Run actions/github-script@v7
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.9923324Z with:
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.9924827Z   script: const { data: issue } = await github.rest.issues.create({
+Start Exercise / Create exercise issue	UNKNOWN STEP	  owner: context.repo.owner,
+Start Exercise / Create exercise issue	UNKNOWN STEP	  repo: context.repo.repo,
+Start Exercise / Create exercise issue	UNKNOWN STEP	  title: `${process.env.ISSUE_TITLE_PREFIX}${process.env.EXERCISE_TITLE}`,
+Start Exercise / Create exercise issue	UNKNOWN STEP	  body: process.env.ISSUE_BODY
+Start Exercise / Create exercise issue	UNKNOWN STEP	});
+Start Exercise / Create exercise issue	UNKNOWN STEP	core.setOutput('ISSUE_URL', issue.html_url);
+Start Exercise / Create exercise issue	UNKNOWN STEP	core.setOutput('ISSUE_NUMBER', issue.number);
+Start Exercise / Create exercise issue	UNKNOWN STEP	
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.9929400Z   github-token: ***
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.9929661Z   debug: false
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.9929957Z   user-agent: actions/github-script
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.9930317Z   result-encoding: json
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.9930598Z   retries: 0
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.9930855Z   retry-exempt-status-codes: 400,401,403,404,422
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.9931096Z env:
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.9931345Z   EXERCISE_TOOLKIT_REF: 85962a50afd57183f6703c3d07260bf3a123b3e9
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.9933890Z   ISSUE_BODY: ## Introduction to Repository Management
+Start Exercise / Create exercise issue	UNKNOWN STEP	
+Start Exercise / Create exercise issue	UNKNOWN STEP	<img alt="original github octocat" src="https://octodex.github.com/images/original.png" align="left" height="80px" />
+Start Exercise / Create exercise issue	UNKNOWN STEP	
+Start Exercise / Create exercise issue	UNKNOWN STEP	👋 Hey there @KokoaSkr1! Welcome to your Skills exercise!
+Start Exercise / Create exercise issue	UNKNOWN STEP	
+Start Exercise / Create exercise issue	UNKNOWN STEP	In this exercise, you&#39;ll configure your repository for easier collaboration. You&#39;ll learn how to protect your code, prepare for collaboration, and foster healthy growth in your projects.
+Start Exercise / Create exercise issue	UNKNOWN STEP	
+Start Exercise / Create exercise issue	UNKNOWN STEP	---
+Start Exercise / Create exercise issue	UNKNOWN STEP	
+Start Exercise / Create exercise issue	UNKNOWN STEP	✨ **This is an interactive, hands-on GitHub Skills exercise!**
+Start Exercise / Create exercise issue	UNKNOWN STEP	
+Start Exercise / Create exercise issue	UNKNOWN STEP	As you complete each step, I’ll leave updates in the comments:
+Start Exercise / Create exercise issue	UNKNOWN STEP	
+Start Exercise / Create exercise issue	UNKNOWN STEP	- ✅ Check your work and guide you forward
+Start Exercise / Create exercise issue	UNKNOWN STEP	- 💡 Share helpful tips and resources
+Start Exercise / Create exercise issue	UNKNOWN STEP	- 🚀 Celebrate your progress and completion
+Start Exercise / Create exercise issue	UNKNOWN STEP	
+Start Exercise / Create exercise issue	UNKNOWN STEP	Let’s get started - good luck and have fun!
+Start Exercise / Create exercise issue	UNKNOWN STEP	
+Start Exercise / Create exercise issue	UNKNOWN STEP	<sub>— Mona</sub>
+Start Exercise / Create exercise issue	UNKNOWN STEP	
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.9936114Z   EXERCISE_TITLE: Introduction to Repository Management
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.9936399Z   ISSUE_TITLE_PREFIX: Exercise: 
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:19.9936612Z ##[endgroup]
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:20.7996760Z [@octokit/request] "POST https://api.github.com/repos/KokoaSkr1/hacktoberfest-2026-repository-management/issues" is deprecated. It is scheduled to be removed on Fri, 10 Mar 2028 00:00:00 GMT. See https://docs.github.com/en/rest/about-the-rest-api/api-versions
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:20.8367273Z Post job cleanup.
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:20.9035386Z [command]/usr/bin/git version
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:20.9070324Z git version 2.55.0
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:20.9100755Z Temporarily overriding HOME='/home/runner/work/_temp/2668078e-7300-456a-94d6-783db31998db' before making global git config changes
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:20.9102223Z Adding repository directory to the temporary git global config as a safe directory
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:20.9104515Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management/exercise-toolkit
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:20.9137871Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:20.9173621Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:20.9371820Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:20.9395715Z http.https://github.com/.extraheader
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:20.9404987Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:20.9434904Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:20.9675470Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:20.9715453Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:21.0096388Z Evaluate and set job outputs
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:21.0101796Z Set output 'issue-url'
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:21.0103327Z Set output 'issue-number'
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:21.0104207Z Cleaning up orphan processes
+Start Exercise / Create exercise issue	UNKNOWN STEP	2026-10-14T16:55:21.0334499Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/github-script@v7, skills/action-text-variables@v2. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	﻿2026-10-14T16:55:16.7653135Z Current runner version: '2.337.0'
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:16.7669061Z ##[group]Runner Image Provisioner
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:16.7669665Z Hosted Compute Agent
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:16.7670029Z Version: 20261002.596
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:16.7670475Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:16.7670907Z Build Date: 2026-10-02T22:28:27Z
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:16.7671339Z Worker ID: {f3404a35-76ee-458d-8478-25669967470d}
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:16.7671810Z Region: southcentralus
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:16.7672161Z Cloud: Azure
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:16.7672514Z ##[endgroup]
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:16.7673362Z ##[group]Operating System
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:16.7673758Z Ubuntu
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:16.7674119Z 24.04.5
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:16.7674448Z LTS
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:16.7674812Z ##[endgroup]
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:16.7675187Z ##[group]Runner Image
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:16.7675553Z Image: ubuntu-24.04
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:16.7676142Z Version: 20261004.327.1
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:16.7676894Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261004.327/images/ubuntu/Ubuntu2404-Readme.md
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:16.7677841Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261004.327
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:16.7678408Z ##[endgroup]
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:16.7679203Z ##[group]GITHUB_TOKEN Permissions
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:16.7680456Z Actions: write
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:16.7681126Z Contents: write
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:16.7681468Z Issues: write
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:16.7681788Z Metadata: read
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:16.7682170Z ##[endgroup]
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:16.7683470Z Secret source: Actions
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:16.7684074Z Cache mode: write
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:16.7684472Z Prepare workflow directory
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:16.7923724Z Prepare all required actions
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:16.7955372Z Getting action download info
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.0239415Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.1494329Z Uses: skills/exercise-toolkit/.github/workflows/start-exercise.yml@refs/tags/v0.6.0 (ebf43bb96882683e03e667184c6445ed4c8074e6)
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.1497396Z ##[group] Inputs
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.1497857Z   exercise-title: Introduction to Repository Management
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.1498298Z   issue-title-prefix: Exercise: 
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.1499249Z   intro-message: In this exercise, you'll configure your repository for easier collaboration. You'll learn how to protect your code, prepare for collaboration, and foster healthy growth in your projects.
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.1500128Z ##[endgroup]
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.1500546Z Complete job name: Start Exercise / Disable exercise workflows
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2010922Z ##[group]Run actions/checkout@v4
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2011326Z with:
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2011649Z   repository: KokoaSkr1/hacktoberfest-2026-repository-management
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2013806Z   token: ***
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2014048Z   ssh-strict: true
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2014293Z   ssh-user: git
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2014548Z   persist-credentials: true
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2014820Z   clean: true
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2015076Z   sparse-checkout-cone-mode: true
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2015383Z   fetch-depth: 1
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2015751Z   fetch-tags: false
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2016005Z   show-progress: true
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2016257Z   lfs: false
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2016491Z   submodules: false
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2016745Z   set-safe-directory: true
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2017031Z   allow-unsafe-pr-checkout: false
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2017394Z env:
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2017691Z   EXERCISE_TOOLKIT_REF: 85962a50afd57183f6703c3d07260bf3a123b3e9
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2018059Z ##[endgroup]
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2736256Z Syncing repository: KokoaSkr1/hacktoberfest-2026-repository-management
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2737445Z ##[group]Getting Git version info
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2738074Z Working directory is '/home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management'
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2739212Z [command]/usr/bin/git version
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2828008Z git version 2.55.0
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2841778Z ##[endgroup]
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2852481Z Temporarily overriding HOME='/home/runner/work/_temp/93bb951d-56a7-4dde-b6b9-742d165bf26c' before making global git config changes
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2853712Z Adding repository directory to the temporary git global config as a safe directory
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2856329Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2898361Z Deleting the contents of '/home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management'
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2901929Z ##[group]Initializing the repository
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2905992Z [command]/usr/bin/git init /home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2997254Z hint: Using 'master' as the name for the initial branch. This default branch name
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2998333Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.2999299Z hint: to use in all of your new repositories, which will suppress this warning,
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.3000310Z hint: call:
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.3000885Z hint:
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.3001735Z hint: 	git config --global init.defaultBranch <name>
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.3002369Z hint:
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.3002898Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.3003693Z hint: 'development'. The just-created branch can be renamed via this command:
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.3004355Z hint:
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.3004759Z hint: 	git branch -m <name>
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.3005185Z hint:
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.3006100Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.3007393Z Initialized empty Git repository in /home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management/.git/
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.3011576Z [command]/usr/bin/git remote add origin https://github.com/KokoaSkr1/hacktoberfest-2026-repository-management
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.3058930Z ##[endgroup]
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.3059597Z ##[group]Disabling automatic garbage collection
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.3062345Z [command]/usr/bin/git config --local gc.auto 0
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.3093426Z ##[endgroup]
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.3100041Z ##[group]Setting up auth
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.3100465Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.3129217Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.3406761Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.3435051Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.3615512Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.3644696Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.3820811Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.3855102Z ##[endgroup]
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.3856087Z ##[group]Fetching the repository
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.3861917Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +210b02b5510cef8a9e5f551ff6036d1732123883:refs/remotes/origin/main
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.7393159Z From https://github.com/KokoaSkr1/hacktoberfest-2026-repository-management
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.7394282Z  * [new ref]         210b02b5510cef8a9e5f551ff6036d1732123883 -> origin/main
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.7397220Z ##[endgroup]
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.7398269Z ##[group]Determining the checkout info
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.7399556Z ##[endgroup]
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.7404081Z [command]/usr/bin/git sparse-checkout disable
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.7449427Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.7481304Z ##[group]Checking out the ref
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.7482665Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.7552033Z Switched to a new branch 'main'
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.7555891Z branch 'main' set up to track 'origin/main'.
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.7560771Z ##[endgroup]
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.7594476Z [command]/usr/bin/git log -1 --format=%H
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.7616493Z 210b02b5510cef8a9e5f551ff6036d1732123883
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.7780707Z ##[group]Run # Find all workflow files that start with a number (0-9)
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.7781261Z ^[[36;1m# Find all workflow files that start with a number (0-9)^[[0m
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.7781776Z ^[[36;1mworkflows=$(git ls-files | grep -E '^\.github/workflows/[0-9].*\.(yml|yaml)$')^[[0m
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.7782252Z ^[[36;1mfor workflow in $workflows; do^[[0m
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.7782594Z ^[[36;1m  workflow_name="$(basename "$workflow")"^[[0m
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.7782963Z ^[[36;1m  echo "Disabling workflow: $workflow_name"^[[0m
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.7783372Z ^[[36;1m  gh workflow disable "$workflow_name" || true^[[0m
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.7783708Z ^[[36;1mdone^[[0m
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.7984709Z shell: /usr/bin/bash -e {0}
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.7985018Z env:
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.7985331Z   EXERCISE_TOOLKIT_REF: 85962a50afd57183f6703c3d07260bf3a123b3e9
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.7987740Z   GH_TOKEN: ***
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.7988001Z ##[endgroup]
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:17.8098915Z Disabling workflow: 0-start-exercise.yml
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:19.5930775Z Disabling workflow: 1-protect-your-code.yml
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:20.1517282Z Disabling workflow: 2-prepare-to-collaborate.yml
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:20.8021588Z Disabling workflow: 3-foster-healthy-growth.yml
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:21.3638953Z Disabling workflow: 4-prepare-for-the-inevitable.yml
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:21.8794292Z Disabling workflow: 5-merge.yml
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:22.5411518Z Post job cleanup.
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:22.5950317Z [command]/usr/bin/git version
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:22.5980704Z git version 2.55.0
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:22.6003713Z Temporarily overriding HOME='/home/runner/work/_temp/ea2b0920-ae83-498a-aaa1-f67c95d096fc' before making global git config changes
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:22.6004450Z Adding repository directory to the temporary git global config as a safe directory
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:22.6007214Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:22.6034943Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:22.6061083Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:22.6255843Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:22.6278958Z http.https://github.com/.extraheader
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:22.6291782Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:22.6314417Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:22.6507816Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:22.6535140Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:22.6837980Z Cleaning up orphan processes
+Start Exercise / Disable exercise workflows	UNKNOWN STEP	2026-10-14T16:55:22.7084883Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Start Exercise / Update README	UNKNOWN STEP	﻿2026-10-14T16:55:26.5789233Z Current runner version: '2.337.0'
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.5824865Z ##[group]Runner Image Provisioner
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.5826155Z Hosted Compute Agent
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.5827191Z Version: 20261002.596
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.5828279Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.5829578Z Build Date: 2026-10-02T22:28:27Z
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.5830760Z Worker ID: {70244176-2dc2-4570-bc92-8178070a3f0f}
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.5831982Z Region: eastus
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.5832971Z Cloud: Azure
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.5834096Z ##[endgroup]
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.5836456Z ##[group]Operating System
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.5838107Z Ubuntu
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.5839011Z 24.04.5
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.5839953Z LTS
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.5840778Z ##[endgroup]
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.5841740Z ##[group]Runner Image
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.5842883Z Image: ubuntu-24.04
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.5844063Z Version: 20261004.327.1
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.5846238Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261004.327/images/ubuntu/Ubuntu2404-Readme.md
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.5849121Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261004.327
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.5850864Z ##[endgroup]
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.5853039Z ##[group]GITHUB_TOKEN Permissions
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.5856275Z Actions: write
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.5857262Z Contents: write
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.5858246Z Issues: write
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.5859128Z Metadata: read
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.5860150Z ##[endgroup]
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.5863208Z Secret source: Actions
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.5865088Z Cache mode: write
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.5866467Z Prepare workflow directory
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.6362645Z Prepare all required actions
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.6410447Z Getting action download info
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.8459525Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:26.9686843Z Download action repository 'skills/action-text-variables@v2' (SHA:3b6c75e091007b8a7660c17071aa2503cccf6af2)
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.1323227Z Download action repository 'EndBug/add-and-commit@v9' (SHA:a94899bca583c204427a224a7af87c02f9b325d5)
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.3683030Z Uses: skills/exercise-toolkit/.github/workflows/start-exercise.yml@refs/tags/v0.6.0 (ebf43bb96882683e03e667184c6445ed4c8074e6)
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.3688038Z ##[group] Inputs
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.3688679Z   exercise-title: Introduction to Repository Management
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.3689356Z   issue-title-prefix: Exercise: 
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.3690763Z   intro-message: In this exercise, you'll configure your repository for easier collaboration. You'll learn how to protect your code, prepare for collaboration, and foster healthy growth in your projects.
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.3692184Z ##[endgroup]
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.3692682Z Complete job name: Start Exercise / Update README
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.4492765Z ##[group]Run actions/checkout@v4
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.4493857Z with:
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.4494457Z   repository: KokoaSkr1/hacktoberfest-2026-repository-management
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.4498692Z   token: ***
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.4499120Z   ssh-strict: true
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.4499556Z   ssh-user: git
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.4499998Z   persist-credentials: true
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.4500472Z   clean: true
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.4500905Z   sparse-checkout-cone-mode: true
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.4501411Z   fetch-depth: 1
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.4501830Z   fetch-tags: false
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.4502263Z   show-progress: true
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.4502694Z   lfs: false
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.4503095Z   submodules: false
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.4503680Z   set-safe-directory: true
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.4504181Z   allow-unsafe-pr-checkout: false
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.4504957Z env:
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.4505501Z   EXERCISE_TOOLKIT_REF: 85962a50afd57183f6703c3d07260bf3a123b3e9
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.4506143Z ##[endgroup]
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.5544561Z Syncing repository: KokoaSkr1/hacktoberfest-2026-repository-management
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.5546901Z ##[group]Getting Git version info
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.5548076Z Working directory is '/home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management'
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.5549891Z [command]/usr/bin/git version
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.5634494Z git version 2.55.0
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.5668155Z ##[endgroup]
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.5679988Z Temporarily overriding HOME='/home/runner/work/_temp/0a5cdde7-2aae-482f-824f-ccc0c1d60fc8' before making global git config changes
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.5682849Z Adding repository directory to the temporary git global config as a safe directory
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.5688662Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.5744881Z Deleting the contents of '/home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management'
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.5749294Z ##[group]Initializing the repository
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.5755723Z [command]/usr/bin/git init /home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.5879035Z hint: Using 'master' as the name for the initial branch. This default branch name
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.5881344Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.5903233Z hint: to use in all of your new repositories, which will suppress this warning,
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.5917010Z hint: call:
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.5918181Z hint:
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.5919411Z hint: 	git config --global init.defaultBranch <name>
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.5920941Z hint:
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.5922213Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.5924543Z hint: 'development'. The just-created branch can be renamed via this command:
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.5929567Z hint:
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.5930764Z hint: 	git branch -m <name>
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.5932015Z hint:
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.5933854Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.5937071Z Initialized empty Git repository in /home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management/.git/
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.5941804Z [command]/usr/bin/git remote add origin https://github.com/KokoaSkr1/hacktoberfest-2026-repository-management
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.5991603Z ##[endgroup]
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.5994369Z ##[group]Disabling automatic garbage collection
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.6001522Z [command]/usr/bin/git config --local gc.auto 0
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.6024165Z ##[endgroup]
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.6025781Z ##[group]Setting up auth
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.6034177Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.6082727Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.6591764Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.6635603Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.6873245Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.6912048Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.7164209Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.7206692Z ##[endgroup]
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.7207657Z ##[group]Fetching the repository
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.7217494Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +210b02b5510cef8a9e5f551ff6036d1732123883:refs/remotes/origin/main
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.9638020Z From https://github.com/KokoaSkr1/hacktoberfest-2026-repository-management
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.9639639Z  * [new ref]         210b02b5510cef8a9e5f551ff6036d1732123883 -> origin/main
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.9642886Z ##[endgroup]
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.9644622Z ##[group]Determining the checkout info
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.9646329Z ##[endgroup]
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.9651449Z [command]/usr/bin/git sparse-checkout disable
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.9706348Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.9742594Z ##[group]Checking out the ref
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.9748113Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.9836222Z Switched to a new branch 'main'
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.9843042Z branch 'main' set up to track 'origin/main'.
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.9848626Z ##[endgroup]
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.9892265Z [command]/usr/bin/git log -1 --format=%H
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:27.9920222Z 210b02b5510cef8a9e5f551ff6036d1732123883
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.0298722Z ##[group]Run actions/checkout@v4
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.0299374Z with:
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.0299858Z   repository: skills/exercise-toolkit
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.0300439Z   path: exercise-toolkit
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.0300984Z   ref: 85962a50afd57183f6703c3d07260bf3a123b3e9
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.0305446Z   token: ***
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.0305924Z   ssh-strict: true
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.0306378Z   ssh-user: git
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.0306853Z   persist-credentials: true
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.0307382Z   clean: true
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.0307858Z   sparse-checkout-cone-mode: true
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.0308415Z   fetch-depth: 1
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.0308875Z   fetch-tags: false
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.0309348Z   show-progress: true
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.0309818Z   lfs: false
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.0310271Z   submodules: false
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.0310786Z   set-safe-directory: true
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.0311324Z   allow-unsafe-pr-checkout: false
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.0311864Z env:
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.0312477Z   EXERCISE_TOOLKIT_REF: 85962a50afd57183f6703c3d07260bf3a123b3e9
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.0313167Z ##[endgroup]
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1180349Z Syncing repository: skills/exercise-toolkit
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1181937Z ##[group]Getting Git version info
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1183603Z Working directory is '/home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management/exercise-toolkit'
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1222823Z [command]/usr/bin/git version
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1264822Z git version 2.55.0
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1326525Z ##[endgroup]
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1332248Z Temporarily overriding HOME='/home/runner/work/_temp/cc68ad33-773c-4309-9e7e-436c88e0625d' before making global git config changes
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1334956Z Adding repository directory to the temporary git global config as a safe directory
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1338843Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management/exercise-toolkit
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1375818Z ##[group]Initializing the repository
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1380955Z [command]/usr/bin/git init /home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management/exercise-toolkit
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1425215Z hint: Using 'master' as the name for the initial branch. This default branch name
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1427125Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1428964Z hint: to use in all of your new repositories, which will suppress this warning,
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1430412Z hint: call:
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1431390Z hint:
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1432799Z hint: 	git config --global init.defaultBranch <name>
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1434335Z hint:
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1435523Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1437366Z hint: 'development'. The just-created branch can be renamed via this command:
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1438784Z hint:
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1439724Z hint: 	git branch -m <name>
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1441167Z hint:
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1442399Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1444988Z Initialized empty Git repository in /home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management/exercise-toolkit/.git/
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1449155Z [command]/usr/bin/git remote add origin https://github.com/skills/exercise-toolkit
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1482720Z ##[endgroup]
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1484513Z ##[group]Disabling automatic garbage collection
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1487787Z [command]/usr/bin/git config --local gc.auto 0
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1522765Z ##[endgroup]
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1524692Z ##[group]Setting up auth
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1529639Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1567747Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1831070Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.1871689Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.2143295Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.2176675Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.2436222Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.2481845Z ##[endgroup]
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.2484166Z ##[group]Fetching the repository
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.2494083Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin 85962a50afd57183f6703c3d07260bf3a123b3e9
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.4753426Z From https://github.com/skills/exercise-toolkit
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.4756128Z  * branch            85962a50afd57183f6703c3d07260bf3a123b3e9 -> FETCH_HEAD
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.4767333Z ##[endgroup]
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.4768664Z ##[group]Determining the checkout info
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.4770522Z ##[endgroup]
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.4771641Z [command]/usr/bin/git sparse-checkout disable
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.4819797Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.4855780Z ##[group]Checking out the ref
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.4860717Z [command]/usr/bin/git checkout --progress --force 85962a50afd57183f6703c3d07260bf3a123b3e9
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.4925689Z Note: switching to '85962a50afd57183f6703c3d07260bf3a123b3e9'.
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.4927373Z 
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.4928525Z You are in 'detached HEAD' state. You can look around, make experimental
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.4931151Z changes and commit them, and you can discard any commits you make in this
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.4934669Z state without impacting any branches by switching back to a branch.
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.4936627Z 
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.4937968Z If you want to create a new branch to retain commits you create, you may
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.4941213Z do so (now or later) by using -c with the switch command. Example:
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.4943000Z 
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.4944061Z   git switch -c <new-branch-name>
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.4945297Z 
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.4946076Z Or undo this operation with:
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.4947211Z 
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.4948072Z   git switch -
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.4948948Z 
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.4949927Z Turn off this advice by setting config variable advice.detachedHead to false
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.4951374Z 
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.4952251Z HEAD is now at 85962a5 style: enhance welcome message styling (#67)
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.4956819Z ##[endgroup]
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.4979723Z [command]/usr/bin/git log -1 --format=%H
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.5008079Z 85962a50afd57183f6703c3d07260bf3a123b3e9
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.5250193Z ##[group]Run skills/action-text-variables@v2
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.5251542Z with:
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.5253021Z   template-file: exercise-toolkit/markdown-templates/readme/exercise-started.md
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.5257196Z   template-vars: title: Introduction to Repository Management
+Start Exercise / Update README	UNKNOWN STEP	login: KokoaSkr1
+Start Exercise / Update README	UNKNOWN STEP	issue_url: https://github.com/KokoaSkr1/hacktoberfest-2026-repository-management/issues/1
+Start Exercise / Update README	UNKNOWN STEP	
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.5260423Z env:
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.5261591Z   EXERCISE_TOOLKIT_REF: 85962a50afd57183f6703c3d07260bf3a123b3e9
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.5263105Z ##[endgroup]
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.6205689Z ##[group]Run echo "$README_TEXT" > README.md
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.6207173Z ^[[36;1mecho "$README_TEXT" > README.md^[[0m
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.6502959Z shell: /usr/bin/bash -e {0}
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.6504411Z env:
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.6505636Z   EXERCISE_TOOLKIT_REF: 85962a50afd57183f6703c3d07260bf3a123b3e9
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.6516476Z   README_TEXT: # Introduction to Repository Management
+Start Exercise / Update README	UNKNOWN STEP	
+Start Exercise / Update README	UNKNOWN STEP	<img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
+Start Exercise / Update README	UNKNOWN STEP	
+Start Exercise / Update README	UNKNOWN STEP	Hey KokoaSkr1!
+Start Exercise / Update README	UNKNOWN STEP	
+Start Exercise / Update README	UNKNOWN STEP	Mona here. I'm done preparing your exercise. Hope you enjoy! 💚
+Start Exercise / Update README	UNKNOWN STEP	
+Start Exercise / Update README	UNKNOWN STEP	Remember, it's self-paced so feel free to take a break! ☕️
+Start Exercise / Update README	UNKNOWN STEP	
+Start Exercise / Update README	UNKNOWN STEP	[![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/KokoaSkr1/hacktoberfest-2026-repository-management/issues/1)
+Start Exercise / Update README	UNKNOWN STEP	
+Start Exercise / Update README	UNKNOWN STEP	---
+Start Exercise / Update README	UNKNOWN STEP	
+Start Exercise / Update README	UNKNOWN STEP	&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+Start Exercise / Update README	UNKNOWN STEP	
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.6526631Z ##[endgroup]
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.6844563Z ##[group]Run EndBug/add-and-commit@v9
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.6845736Z with:
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.6846546Z   add: README.md
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.6847449Z   message: Start exercise
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.6848469Z   default_author: github_actions
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.6849516Z   cwd: .
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.6850382Z   fetch: --tags --force
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.6851390Z   pathspec_error_handling: ignore
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.6852476Z   push: true
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.6862606Z   github_token: ***
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.6863747Z env:
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.6864867Z   EXERCISE_TOOLKIT_REF: 85962a50afd57183f6703c3d07260bf3a123b3e9
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.6866273Z ##[endgroup]
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.7922833Z Running in /home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.7943851Z Add input parsed as single string, running 1 git add command.
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.7950169Z (node:2433) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.7953942Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.7957154Z > Using 'github-actions <41898282+github-actions[bot]@users.noreply.github.com>' as author.
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.7960432Z > Using "Start exercise" as commit message.
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.7962847Z ##[group]Internal logs
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.7964075Z > Staging files...
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.7964987Z > Adding files...
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.8559469Z > No files to remove.
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.8561527Z > Checking for uncommitted changes in the git working tree...
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:28.8611482Z > Found 1 changed files.
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:29.1887003Z > Fetching repo...
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:29.4326930Z {
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:29.4329647Z   raw: '',
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:29.4331319Z   remote: null,
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:29.4332878Z   branches: [],
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:29.4334635Z   tags: [],
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:29.4336419Z   updated: [],
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:29.4337990Z   deleted: []
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:29.4339469Z }
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:29.4340903Z > Not pulling from repo.
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:29.4342602Z > Creating commit...
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:29.4396406Z {
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:29.4397932Z   author: null,
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:29.4399542Z   branch: 'main',
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:29.4401398Z   commit: '87a9f4ed8791ed9cacf82bc11790e7a6ea435fc8',
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:29.4403806Z   root: false,
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:29.4404946Z   summary: { changes: 1, insertions: 6, deletions: 44 }
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:29.4406208Z }
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:29.4408898Z > No tag info provided.
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:29.4409898Z > Pushing commit to repo...
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.4406477Z {
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.4407353Z   pushed: [],
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.4408196Z   update: {
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.4408857Z     head: { local: 'refs/heads/main', remote: 'refs/heads/main' },
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.4409462Z     hash: { from: '34d5b52', to: 'f2bfc46' }
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.4409926Z   },
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.4410809Z   repo: 'https://github.com/KokoaSkr1/hacktoberfest-2026-repository-management',
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.4411702Z   ref: { local: 'refs/remotes/origin/main' },
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.4412287Z   remoteMessages: zt { all: [] }
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.4412784Z }
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.4413119Z > No tags to push.
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.4414033Z ##[endgroup]
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.4414268Z > Task completed.
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.4414708Z ##[group]Outputs
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.4414940Z committed: true
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.4415266Z commit_long_sha: 87a9f4ed8791ed9cacf82bc11790e7a6ea435fc8
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.4415636Z commit_sha: f2bfc46
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.4415873Z pushed: true
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.4416100Z tagged: false
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.4416329Z tag_pushed: false
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.4416713Z ##[endgroup]
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.5120916Z Post job cleanup.
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.5987581Z [command]/usr/bin/git version
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.6032276Z git version 2.55.0
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.6072657Z Temporarily overriding HOME='/home/runner/work/_temp/0165d189-1a30-43ea-a43f-e6b2c3ae3bf8' before making global git config changes
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.6074578Z Adding repository directory to the temporary git global config as a safe directory
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.6077630Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management/exercise-toolkit
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.6116159Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.6151606Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.6405197Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.6434516Z http.https://github.com/.extraheader
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.6504630Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.6515666Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.6738548Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.6778302Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.7224640Z Post job cleanup.
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.8175177Z [command]/usr/bin/git version
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.8220323Z git version 2.55.0
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.8264638Z Temporarily overriding HOME='/home/runner/work/_temp/cb57f6c8-05b9-44e0-a730-ece228c8fc79' before making global git config changes
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.8266395Z Adding repository directory to the temporary git global config as a safe directory
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.8270769Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.8310219Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.8346797Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.8628999Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.8654625Z http.https://github.com/.extraheader
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.8666159Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.8702471Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.8966439Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.9011782Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.9457921Z Cleaning up orphan processes
+Start Exercise / Update README	UNKNOWN STEP	2026-10-14T16:55:31.9757006Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, EndBug/add-and-commit@v9, skills/action-text-variables@v2. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Post next step content	UNKNOWN STEP	﻿2026-10-14T16:55:36.5539656Z Current runner version: '2.337.0'
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.5577779Z ##[group]Runner Image Provisioner
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.5579266Z Hosted Compute Agent
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.5580283Z Version: 20261012.601
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.5581690Z Commit: f3dc54e1fb89da6852db922499a0233137369e1d
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.5582944Z Build Date: 2026-10-12T17:48:21Z
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.5585008Z Worker ID: {b0ce2135-7396-4a02-8982-b865fa61d314}
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.5586549Z Region: eastus
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.5587438Z Cloud: Azure
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.5588925Z ##[endgroup]
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.5591143Z ##[group]Operating System
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.5592370Z Ubuntu
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.5593238Z 24.04.5
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.5594081Z LTS
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.5595074Z ##[endgroup]
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.5596434Z ##[group]Runner Image
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.5597525Z Image: ubuntu-24.04
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.5598580Z Version: 20261012.334.1
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.5600814Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261012.334/images/ubuntu/Ubuntu2404-Readme.md
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.5603571Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261012.334
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.5605371Z ##[endgroup]
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.5607814Z ##[group]GITHUB_TOKEN Permissions
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.5611009Z Actions: write
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.5611990Z Contents: write
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.5613023Z Issues: write
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.5613974Z Metadata: read
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.5614890Z ##[endgroup]
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.5618360Z Secret source: Actions
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.5619904Z Cache mode: write
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.5621472Z Prepare workflow directory
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.6267561Z Prepare all required actions
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.6317438Z Getting action download info
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:36.8951192Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.0347174Z Download action repository 'skills/action-text-variables@v2' (SHA:3b6c75e091007b8a7660c17071aa2503cccf6af2)
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.2818454Z Complete job name: Post next step content
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.3551045Z ##[group]Run actions/checkout@v4
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.3551956Z with:
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.3552556Z   repository: KokoaSkr1/hacktoberfest-2026-repository-management
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.3556934Z   token: ***
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.3557378Z   ssh-strict: true
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.3557817Z   ssh-user: git
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.3558261Z   persist-credentials: true
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.3558745Z   clean: true
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.3559195Z   sparse-checkout-cone-mode: true
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.3559708Z   fetch-depth: 1
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.3560135Z   fetch-tags: false
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.3560581Z   show-progress: true
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.3561032Z   lfs: false
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.3561436Z   submodules: false
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.3561875Z   set-safe-directory: true
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.3562378Z   allow-unsafe-pr-checkout: false
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.3563250Z env:
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.3563744Z   STEP_1_FILE: .github/steps/1-protect-your-code.md
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.3564726Z   ISSUE_URL: https://github.com/KokoaSkr1/hacktoberfest-2026-repository-management/issues/1
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.3565564Z ##[endgroup]
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.4617304Z Syncing repository: KokoaSkr1/hacktoberfest-2026-repository-management
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.4619991Z ##[group]Getting Git version info
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.4621146Z Working directory is '/home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management'
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.4623157Z [command]/usr/bin/git version
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.4700291Z git version 2.55.0
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.4722609Z ##[endgroup]
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.4738492Z Temporarily overriding HOME='/home/runner/work/_temp/e285128f-108a-4dd8-8403-008a671d4cc6' before making global git config changes
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.4740769Z Adding repository directory to the temporary git global config as a safe directory
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.4744939Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.4804803Z Deleting the contents of '/home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management'
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.4808747Z ##[group]Initializing the repository
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.4813649Z [command]/usr/bin/git init /home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.4950638Z hint: Using 'master' as the name for the initial branch. This default branch name
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.4951800Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.4952878Z hint: to use in all of your new repositories, which will suppress this warning,
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.4954075Z hint: call:
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.4954707Z hint:
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.4955555Z hint: 	git config --global init.defaultBranch <name>
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.4957348Z hint:
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.4958910Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.4961829Z hint: 'development'. The just-created branch can be renamed via this command:
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.4963673Z hint:
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.4964383Z hint: 	git branch -m <name>
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.4965242Z hint:
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.4966662Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.4969399Z Initialized empty Git repository in /home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management/.git/
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.4979600Z [command]/usr/bin/git remote add origin https://github.com/KokoaSkr1/hacktoberfest-2026-repository-management
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.5037805Z ##[endgroup]
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.5039133Z ##[group]Disabling automatic garbage collection
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.5048329Z [command]/usr/bin/git config --local gc.auto 0
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.5129897Z ##[endgroup]
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.5131944Z ##[group]Setting up auth
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.5134396Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.5168074Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.5611769Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.5644850Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.5905866Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.5948206Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.6204515Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.6247362Z ##[endgroup]
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.6248214Z ##[group]Fetching the repository
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.6260294Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +210b02b5510cef8a9e5f551ff6036d1732123883:refs/remotes/origin/main
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.8426704Z From https://github.com/KokoaSkr1/hacktoberfest-2026-repository-management
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.8428060Z  * [new ref]         210b02b5510cef8a9e5f551ff6036d1732123883 -> origin/main
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.8431466Z ##[endgroup]
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.8432822Z ##[group]Determining the checkout info
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.8434380Z ##[endgroup]
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.8440587Z [command]/usr/bin/git sparse-checkout disable
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.8499521Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.8533670Z ##[group]Checking out the ref
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.8537981Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.8632027Z Switched to a new branch 'main'
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.8637698Z branch 'main' set up to track 'origin/main'.
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.8643696Z ##[endgroup]
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.8688683Z [command]/usr/bin/git log -1 --format=%H
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.8717603Z 210b02b5510cef8a9e5f551ff6036d1732123883
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.9028550Z ##[group]Run actions/checkout@v4
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.9029176Z with:
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.9029627Z   repository: skills/exercise-toolkit
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.9030178Z   path: exercise-toolkit
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.9030648Z   ref: v0.6.0
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.9034586Z   token: ***
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.9035020Z   ssh-strict: true
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.9035452Z   ssh-user: git
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.9035896Z   persist-credentials: true
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.9036709Z   clean: true
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.9037167Z   sparse-checkout-cone-mode: true
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.9037689Z   fetch-depth: 1
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.9038122Z   fetch-tags: false
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.9038562Z   show-progress: true
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.9039032Z   lfs: false
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.9039464Z   submodules: false
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.9039937Z   set-safe-directory: true
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.9040439Z   allow-unsafe-pr-checkout: false
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.9040938Z env:
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.9041451Z   STEP_1_FILE: .github/steps/1-protect-your-code.md
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.9109257Z   ISSUE_URL: https://github.com/KokoaSkr1/hacktoberfest-2026-repository-management/issues/1
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.9110364Z ##[endgroup]
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.9977792Z Syncing repository: skills/exercise-toolkit
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.9983827Z ##[group]Getting Git version info
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:37.9986984Z Working directory is '/home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management/exercise-toolkit'
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0030067Z [command]/usr/bin/git version
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0072991Z git version 2.55.0
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0128336Z ##[endgroup]
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0143589Z Temporarily overriding HOME='/home/runner/work/_temp/cef164bd-9236-4213-a69a-d3aa4ad1716b' before making global git config changes
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0145968Z Adding repository directory to the temporary git global config as a safe directory
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0150407Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management/exercise-toolkit
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0192941Z ##[group]Initializing the repository
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0218483Z [command]/usr/bin/git init /home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management/exercise-toolkit
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0267155Z hint: Using 'master' as the name for the initial branch. This default branch name
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0285869Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0297786Z hint: to use in all of your new repositories, which will suppress this warning,
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0299740Z hint: call:
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0300851Z hint:
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0302189Z hint: 	git config --global init.defaultBranch <name>
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0303715Z hint:
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0310338Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0312578Z hint: 'development'. The just-created branch can be renamed via this command:
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0314461Z hint:
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0315713Z hint: 	git branch -m <name>
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0317254Z hint:
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0318928Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0323307Z Initialized empty Git repository in /home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management/exercise-toolkit/.git/
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0355297Z [command]/usr/bin/git remote add origin https://github.com/skills/exercise-toolkit
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0363414Z ##[endgroup]
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0367650Z ##[group]Disabling automatic garbage collection
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0369759Z [command]/usr/bin/git config --local gc.auto 0
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0389595Z ##[endgroup]
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0391121Z ##[group]Setting up auth
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0403653Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0438717Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0759619Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.0823550Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.1127884Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.1174947Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.1412328Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.1454158Z ##[endgroup]
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.1455755Z ##[group]Fetching the repository
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.1465442Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +refs/heads/v0.6.0*:refs/remotes/origin/v0.6.0* +refs/tags/v0.6.0*:refs/tags/v0.6.0*
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4514368Z From https://github.com/skills/exercise-toolkit
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4518020Z  * [new tag]         v0.6.0     -> v0.6.0
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4524362Z ##[endgroup]
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4527622Z ##[group]Determining the checkout info
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4530423Z [command]/usr/bin/git branch --list --remote origin/v0.6.0
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4567228Z [command]/usr/bin/git tag --list v0.6.0
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4594384Z v0.6.0
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4607897Z ##[endgroup]
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4611747Z [command]/usr/bin/git sparse-checkout disable
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4658273Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4694489Z ##[group]Checking out the ref
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4697438Z [command]/usr/bin/git checkout --progress --force refs/tags/v0.6.0
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4759363Z Note: switching to 'refs/tags/v0.6.0'.
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4760605Z 
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4761495Z You are in 'detached HEAD' state. You can look around, make experimental
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4764117Z changes and commit them, and you can discard any commits you make in this
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4767358Z state without impacting any branches by switching back to a branch.
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4769177Z 
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4770343Z If you want to create a new branch to retain commits you create, you may
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4773204Z do so (now or later) by using -c with the switch command. Example:
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4774862Z 
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4775591Z   git switch -c <new-branch-name>
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4777083Z 
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4777694Z Or undo this operation with:
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4778672Z 
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4779228Z   git switch -
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4779973Z 
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4781230Z Turn off this advice by setting config variable advice.detachedHead to false
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4782996Z 
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4784869Z HEAD is now at ebf43bb fix: update find-exercise workflow to also work on closed issues (#71)
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4789748Z ##[endgroup]
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4819519Z [command]/usr/bin/git log -1 --format=%H
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.4849408Z ebf43bb96882683e03e667184c6445ed4c8074e6
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.5042236Z ##[group]Run git config user.name github-actions[bot]
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.5043759Z ^[[36;1mgit config user.name github-actions[bot]^[[0m
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.5045432Z ^[[36;1mgit config user.email github-actions[bot]@users.noreply.github.com^[[0m
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.5341613Z shell: /usr/bin/bash -e {0}
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.5343092Z env:
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.5344166Z   STEP_1_FILE: .github/steps/1-protect-your-code.md
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.5346606Z   ISSUE_URL: https://github.com/KokoaSkr1/hacktoberfest-2026-repository-management/issues/1
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.5348683Z ##[endgroup]
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.5641813Z ##[group]Run skills/action-text-variables@v2
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.5642923Z with:
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.5643837Z   template-file: .github/steps/1-protect-your-code.md
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.5645759Z   template-vars: login: KokoaSkr1
+Post next step content	UNKNOWN STEP	full_repo_name: KokoaSkr1/hacktoberfest-2026-repository-management
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.5647655Z env:
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.5648527Z   STEP_1_FILE: .github/steps/1-protect-your-code.md
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.5650304Z   ISSUE_URL: https://github.com/KokoaSkr1/hacktoberfest-2026-repository-management/issues/1
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.5651970Z ##[endgroup]
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.6679667Z ##[group]Run gh issue comment "$ISSUE_URL" \
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.6681521Z ^[[36;1mgh issue comment "$ISSUE_URL" \^[[0m
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.6683194Z ^[[36;1m  --body "$ISSUE_BODY"^[[0m
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.6780034Z shell: /usr/bin/bash -e {0}
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.6781332Z env:
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.6782283Z   STEP_1_FILE: .github/steps/1-protect-your-code.md
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.6784062Z   ISSUE_URL: https://github.com/KokoaSkr1/hacktoberfest-2026-repository-management/issues/1
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.6799189Z   GH_TOKEN: ***
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.6907498Z   ISSUE_BODY: # Step 1: Protect your code
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	It's been a busy month at Mergington High! Your simple website for managing extra-curricular activities has really taken off. What started as a basic sign-up form for a few activities has grown into the go-to place for half the school activities. 📚✨
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	Principal Martinez was so impressed with your work that they announced at the last staff meeting that ALL clubs should start using the website. While this is exciting, you're a bit nervous - the last thing you want is an accidental change breaking the system right before the big Fall Activities Fair! 😰
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	When more teachers start helping with the Mergington High activities website, it's important to add some safeguards. Thankfully, GitHub provides several ways to protect your repository:
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	1. **Repository Rulesets** - These provide safeguards to limit:
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	   - Pushing code directly to important branches
+Post next step content	UNKNOWN STEP	   - Deleting or renaming branches
+Post next step content	UNKNOWN STEP	   - Force pushing (which can overwrite history)
+Post next step content	UNKNOWN STEP	   - (and much more)
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	1. **`.gitignore`** - This special file tells Git which files it should NOT track, like:
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	   - Temporary files that your code creates while running
+Post next step content	UNKNOWN STEP	   - Secret configuration files with sensitive information
+Post next step content	UNKNOWN STEP	   - System files that other developers don't need
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	> [!TIP]
+Post next step content	UNKNOWN STEP	> Think of these settings like the editorial process of a school yearbook. Various student committees will take photos and write articles, then the yearbook president will make adjustments to make sure everything flows together properly. Finally, a teacher/advisor will sign off that all content is appropriate.
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	## ⌨️ Activity: (optional) Get to know our extracurricular activities site
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	<details>
+Post next step content	UNKNOWN STEP	<summary>Show Steps</summary>
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	In [Getting Started with GitHub Copilot](https://github.com/skills/getting-started-with-github-copilot/) exercise, we have been developing the Extracurricular activities website. You can follow these steps to start up the development environment and try it out.
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	> ❗ **Important:** Opening a development environment and running the application is **NOT** necessary to complete this exercise. You can skip this activity if desired.
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	1. Right-click the below button to open the **Create Codespace** page in a new tab. Use the default configuration.
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	   [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/KokoaSkr1&#x2F;hacktoberfest-2026-repository-management?quickstart=1)
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	1. Wait some time for the environment to be prepared. It will automatically install all requirements and services.
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	1. Validate the **GitHub Copilot** and **Python** extensions are installed and enabled.
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	   <img width="300" alt="copilot extension for VS Code" src="https://github.com/user-attachments/assets/ef1ef984-17fc-4b20-a9a6-65a866def468" /><br/>
+Post next step content	UNKNOWN STEP	   <img width="300" alt="python extension for VS Code" src="https://github.com/user-attachments/assets/3040c0f5-1658-47e2-a439-20504a384f77" />
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	1. Try running the application. In the left sidebar, select the **Run and Debug** tab and then press the **Start Debugging** icon.
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	   <details>
+Post next step content	UNKNOWN STEP	   <summary>📸 Show screenshot</summary><br/>
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	   <img width="300" alt="run and debug" src="https://github.com/user-attachments/assets/50b27f2a-5eab-4827-9343-ab5bce62357e" />
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	   </details>
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	   <details>
+Post next step content	UNKNOWN STEP	   <summary>🤷 Having trouble?</summary><br/>
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	   If the **Run and Debug** area is empty, try reloading VS Code: Open the command palette (`Ctrl`+`Shift`+`P`) and search for `Developer: Reload Window`.
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	   <img width="300" alt="empty run and debug panel" src="https://github.com/user-attachments/assets/0dbf1407-3a97-401a-a630-f462697082d6" />
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	   </details>
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	1. Use the **Ports** tab to find the webpage address, open it, and verify it is running.
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	   <details>
+Post next step content	UNKNOWN STEP	   <summary>📸 Show screenshot</summary><br/>
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	   <img width="350" alt="ports tab" src="https://github.com/user-attachments/assets/8d24d6b5-202d-4109-8174-2f0d1e4d8d44" />
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	   ![Screenshot of Mergington High School WebApp](https://github.com/user-attachments/assets/5e1e7c1e-1b0e-4378-a5af-a266763e6544)
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	   </details>
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	</details>
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	## ⌨️ Activity: Add a branch ruleset
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	To get started, let's add some protections so that no one accidentally breaks the club registration system.
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	1. If necessary, open another tab and navigate to this repository. We will start on the **Settings** tab.
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	1. In the left navigation, expand the **Rules** area and select **Rulesets**.
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	1. Click the **New ruleset** dropdown and select **New branch ruleset**.
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	   <img width="250" alt="image" src="https://github.com/user-attachments/assets/1e9fd519-1421-4d6b-b654-a3fe53a8fb75" />
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	1. Set the **Ruleset Name** as `Protect main` and change the **Enforcement status** to `Active`.
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	   <img width="250" alt="image" src="https://github.com/user-attachments/assets/ce30fd34-39b5-4e22-b348-4af61fd05cd1" />
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	1. Find the **Targets** section and use the **Add target** dropdown to add 2 entries:
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	   1. Add the **Include default branch** option to ensure protections aren't bypassed by switching the default branch.
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	      <img width="250" alt="image" src="https://github.com/user-attachments/assets/217263cc-d5c2-4ac0-b03c-a72494e5c812" />
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	   1. Use the **include by pattern** option and enter the pattern `main`.
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	      <img width="250" alt="image" src="https://github.com/user-attachments/assets/968c9ed8-b051-44eb-af42-d99670ad31fd" />
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	      <img width="250" alt="image" src="https://github.com/user-attachments/assets/ddc52767-d93e-4c9e-a77a-90c3b5c08fb5" />
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	1. Find the **Rules** section and ensure the following items are checked.
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	   - [x] Restrict deletions
+Post next step content	UNKNOWN STEP	   - [x] Require a pull request before merging
+Post next step content	UNKNOWN STEP	     - Required approvals: `0`
+Post next step content	UNKNOWN STEP	     - [x] Require review from Code Owners
+Post next step content	UNKNOWN STEP	   - [x] Block force pushes
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	1. Scroll to the bottom and click the **Create** button to save the ruleset.
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	## ⌨️ Activity: Create a `.gitignore` file
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	We know many teachers use different tools, so let's make sure they don't accidentally commit unnecessary files.
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	1. At the top navigation, return to the **Code** tab and verify you are on the `main` branch.
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	1. Above the list of files, click the **Add file** dropdown and select **Create new file**.
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	   <img width="300" alt="New file button" src="https://github.com/user-attachments/assets/8f3f8da8-1471-485a-9df5-8c03ecba2d8e"/>
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	1. Enter the file name `.gitignore`. We will ignore the template selector for now and make our own. Copy the below example content into it.
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	   <img width="350" alt="preview of new file" src="https://github.com/user-attachments/assets/580d1a63-a264-4d44-8901-50ad708b8822"/>
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	   ```gitignore
+Post next step content	UNKNOWN STEP	   # Python backend for club management
+Post next step content	UNKNOWN STEP	   __pycache__/
+Post next step content	UNKNOWN STEP	   *.py[cod]      # Python compiled files
+Post next step content	UNKNOWN STEP	   *$py.class
+Post next step content	UNKNOWN STEP	   *.so
+Post next step content	UNKNOWN STEP	   .Python
+Post next step content	UNKNOWN STEP	   env/
+Post next step content	UNKNOWN STEP	   .env           # Where database passwords are stored
+Post next step content	UNKNOWN STEP	   venv/          # Virtual environment for testing
+Post next step content	UNKNOWN STEP	   .venv
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	   # Teacher IDE settings
+Post next step content	UNKNOWN STEP	   .vscode/       # Ms. Rodriguez uses VS Code
+Post next step content	UNKNOWN STEP	   .idea/         # Mr. Chen uses PyCharm
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	   # Local development & testing
+Post next step content	UNKNOWN STEP	   instance/
+Post next step content	UNKNOWN STEP	   .pytest_cache/
+Post next step content	UNKNOWN STEP	   .coverage      # Test coverage reports
+Post next step content	UNKNOWN STEP	   htmlcov/
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	   # Staff computer files
+Post next step content	UNKNOWN STEP	   .DS_Store      # For teachers with Macs
+Post next step content	UNKNOWN STEP	   Thumbs.db      # For teachers with Windows
+Post next step content	UNKNOWN STEP	   ```
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	1. In the top right, select the **Commit changes...** button. Notice that it won't let us commit to the `main` branch! Our ruleset is working! Nice!
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	   <img width="400" alt="image" src="https://github.com/user-attachments/assets/4e85948d-75c8-4c13-8ddd-4707bf9b0805" />
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	1. Enter `prepare-to-collaborate` for the branch name then click the **Propose changes** button. You will be forwarded to a new page to start a new pull request.
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	1. Set the title to `Prepare to collaborate` and click the **Create pull request** button. **Do NOT merge yet**, since we will be adding more collaboration related changes.
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	1. With the file committed, wait a moment for Mona to check your work, provide feedback, and share the next lesson.
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	> [!TIP]
+Post next step content	UNKNOWN STEP	> GitHub and the community have built a repository with [sample `.gitignore` files](https://github.com/github/gitignore) for many situations. Make sure to check it out!
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	<details>
+Post next step content	UNKNOWN STEP	<summary>🤷 Having trouble?</summary><br/>
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	Make sure you pushed the `.gitignore` file to `prepare-to-collaborate` branch. Exact naming for both matters!
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	</details>
+Post next step content	UNKNOWN STEP	
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:38.6997929Z ##[endgroup]
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:39.8863396Z https://github.com/KokoaSkr1/hacktoberfest-2026-repository-management/issues/1#issuecomment-6173662913
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:39.8922144Z ##[group]Run gh issue comment "$ISSUE_URL" \
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:39.8922531Z ^[[36;1mgh issue comment "$ISSUE_URL" \^[[0m
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:39.8923079Z ^[[36;1m  --body-file "exercise-toolkit/markdown-templates/step-feedback/watching-for-progress.md"^[[0m
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:39.8990051Z shell: /usr/bin/bash -e {0}
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:39.8990341Z env:
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:39.8990603Z   STEP_1_FILE: .github/steps/1-protect-your-code.md
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:39.8991155Z   ISSUE_URL: https://github.com/KokoaSkr1/hacktoberfest-2026-repository-management/issues/1
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:39.8994308Z   GH_TOKEN: ***
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:39.8994539Z ##[endgroup]
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:40.9266719Z https://github.com/KokoaSkr1/hacktoberfest-2026-repository-management/issues/1#issuecomment-6173663232
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:40.9378543Z ##[group]Run # gh workflow enable "Step 0" # Already disabled
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:40.9379288Z ^[[36;1m# gh workflow enable "Step 0" # Already disabled^[[0m
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:40.9380006Z ^[[36;1mgh workflow enable "Step 1" || true^[[0m
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:40.9445422Z shell: /usr/bin/bash -e {0}
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:40.9445675Z env:
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:40.9445919Z   STEP_1_FILE: .github/steps/1-protect-your-code.md
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:40.9446733Z   ISSUE_URL: https://github.com/KokoaSkr1/hacktoberfest-2026-repository-management/issues/1
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:40.9449606Z   GH_TOKEN: ***
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:40.9449819Z ##[endgroup]
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:41.4067116Z Post job cleanup.
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:41.5061283Z [command]/usr/bin/git version
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:41.5109078Z git version 2.55.0
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:41.5153363Z Temporarily overriding HOME='/home/runner/work/_temp/84fae95f-ba98-40ee-9393-8f262c725a71' before making global git config changes
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:41.5155003Z Adding repository directory to the temporary git global config as a safe directory
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:41.5160246Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management/exercise-toolkit
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:41.5586597Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:41.5630376Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:41.5893340Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:41.6036290Z http.https://github.com/.extraheader
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:41.6049555Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:41.6091960Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:41.6339486Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:41.6381231Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:41.6851031Z Post job cleanup.
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:41.7786406Z [command]/usr/bin/git version
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:41.7831732Z git version 2.55.0
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:41.7879041Z Temporarily overriding HOME='/home/runner/work/_temp/10571d72-eeed-4666-8b57-faeddefd3d59' before making global git config changes
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:41.7880576Z Adding repository directory to the temporary git global config as a safe directory
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:41.7886627Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/hacktoberfest-2026-repository-management/hacktoberfest-2026-repository-management
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:41.7932621Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:41.7970777Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:41.8262033Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:41.8300053Z http.https://github.com/.extraheader
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:41.8317353Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:41.8372241Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:41.8702544Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:41.8753722Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:41.9239918Z Cleaning up orphan processes
+Post next step content	UNKNOWN STEP	2026-10-14T16:55:41.9531033Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, skills/action-text-variables@v2. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
